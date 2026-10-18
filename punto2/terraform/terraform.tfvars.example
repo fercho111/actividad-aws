@@ -1,0 +1,28 @@
+# Archivo de variables de ejemplo para Terraform
+# Copie este archivo a terraform.tfvars y modifique los valores
+
+# Configuracion global
+region = "us-east-1"
+
+# S3
+bucket_name = "mi-bucket-unique-name-123"
+
+# EC2
+instance_name = "mi-instancia-ec2"
+instance_type = "t2.micro"
+key_name      = "mi-keypair"
+
+# RDS
+db_instance_identifier = "mi-instancia-rds"
+db_instance_class      = "db.t3.micro"
+engine                 = "mysql"
+engine_version         = "8.0.42"
+master_username        = "admin"
+allocated_storage      = 20
+database_name          = "miBaseDeDatos"
+
+# Tags
+tags = {
+  Environment = "dev"
+  ManagedBy   = "terraform"
+}
