@@ -1,0 +1,16 @@
+producto_id,nombre,categoria,precio_unitario
+1,Laptop,electronica,1200
+2,Mouse,electronica,25
+3,Teclado,electronica,80
+4,Monitor,electronica,300
+5,Silla,muebles,150
+6,Escritorio,muebles,350
+7,Lampara,iluminacion,45
+8,Audifonos,electronica,60
+9,Webcam,electronica,90
+10,Microfono,electronica,120
+11,Tablet,electronica,450
+12,Impresora,electronica,200
+13,Estante,muebles,180
+14,Cable HDMI,electronica,15
+15,Cargador,electronica,35
